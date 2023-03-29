@@ -1,0 +1,36 @@
+h1 {
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+
+/* Styles for the navigation links */
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+nav a:hover {
+  background-color: white;
+  color: #333;
+}
+
+/* Styles for the router outlet */
+router-outlet {
+  margin-top: 1rem;
+}
+
+/* Styles for the app messages component */
+app-messages {
+  margin-top: 1rem;
+}

@@ -1,0 +1,14 @@
+<ul>
+  <li *ngFor="let pet of pets">
+    {{ pet }}
+  </li>
+</ul>
+<button (click)="sortPets()">Sort Pets Alphabetically</button>
+<div>
+  <label for="new-pet">Pet name: </label>
+  <input id="new-pet" #petName />
+
+  <button type="button" class="add-button" (click)="addPet(petName.value); petName.value=''">
+    Add Pet
+  </button>
+</div>
